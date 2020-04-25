@@ -4,10 +4,12 @@ from routes import Routes
 from db import db
 from ma import ma
 
+# initializing app database
+db.init_app(app)
+
 # initializing app routes
 routes = Routes()
 routes.routes()
-
 
 @app.before_first_request
 def initialize_database():
@@ -16,6 +18,5 @@ def initialize_database():
 
 # running the application
 if __name__ == "__main__":
-    db.init_app(app)
     ma.init_app(app)
     app.run(port=5000, debug=True)
