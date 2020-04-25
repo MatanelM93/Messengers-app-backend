@@ -123,3 +123,8 @@ venv.bak/
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+
+#extra files to be ignored
+.Pipfile
+.Pipfile.lock
