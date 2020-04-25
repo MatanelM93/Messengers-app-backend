@@ -8,6 +8,12 @@ from ma import ma
 routes = Routes()
 routes.routes()
 
+
+@app.before_first_request
+def initialize_database():
+    # must be done to create the databases before creating requests - this is not populating the database
+    db.create_all()
+
 # running the application
 if __name__ == "__main__":
     db.init_app(app)
