@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, send_from_directory, render_template, url_for
 from flask_jwt_extended import JWTManager
-from flask_cors import CORS, cross_origin
+# from flask_cors import CORS, cross_origin
 
 from blacklist import BLACKLIST
 from db import db
@@ -8,16 +8,16 @@ from db import db
 
 app = Flask(__name__)
 
-# CORS allow support
-
-cors = CORS(app, origins="http://localhost:4200", allow_headers=[
-    "Content-Type", "Authorization", "Access-Control-Allow-Credentials"],
-    supports_credentials=True)
-
-app.config['CORS_HEADERS'] = 'Content-Type'
-app.config['CORS_ENABLED'] = True
-
+# # CORS allow support
 #
+# cors = CORS(app, origins="http://localhost:4200", allow_headers=[
+#     "Content-Type", "Authorization", "Access-Control-Allow-Credentials"],
+#     supports_credentials=True)
+#
+# app.config['CORS_HEADERS'] = 'Content-Type'
+# app.config['CORS_ENABLED'] = True
+#
+# #
 
 
 # additional configurations -
