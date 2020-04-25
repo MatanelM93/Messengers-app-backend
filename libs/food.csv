@@ -1,0 +1,56 @@
+id,name,category,price
+1,chicken breast,chicken, 20.99
+2,chicken legs,chicken, 15.99
+3,whole chicken,chicken, 25.99
+4,processed meat,meat, 27.99
+5,usubuku,meat, 28.99
+6,asado,meat, 25.99
+7,antricot,meat, 29.99
+8,phillet,meat, 45.99
+9,roast beef,meat, 39.99
+10,pastrama,chicken, 19.99
+11,hot dogs,chicken, 17.99
+12,tuna (water),fish, 6.99
+13,tuna (oil),fish, 6.99
+14,salomon,fish, 32.99
+15,eggs,eggs, 14.99
+16,white spreaded cheese,cheese, 4.99
+17,cottage,cheese, 4.99
+18,milk,cheese, 4.99
+19,hard cheese,cheese, 5.99
+20,yogurt,cheese, 3.99
+21,triangled cheese 30%,cheese, 11.99
+22,sour cream 15%,cheese, 3.69
+23,banana,fruits, 1.79
+24,pear,fruits, 1.59
+25,apple,fruits, 1.19
+26,orange,fruits, 1.49
+27,pomegranate,fruits, 1.39
+28,peach,fruits, 1.29
+29,plum,fruits, 1.59
+30,grapes,fruits, 1.29
+31,watermelon,fruits, 1.19
+32,melon,fruits, 1.69
+33,eggplant,vegetables, 1.19
+34,tomato,vegetables, 1.39
+35,cucumber,vegetables, 1.29
+36,pepper,vegetables, 1.49
+37,carrot,vegetables, 1.19
+38,lettuce,vegetables, 1.29
+39,coriander,vegetables, 1.49
+40,potato,vegetables, 10.99
+41,onions,vegetables, 10.99
+42,garlic,vegetables, 10.99
+43,pekan nuts,nuts, 10.99
+44,walnuts,nuts, 2.99
+45,almonds,nuts, 2.59
+46,rice,nuts, 13.99
+48,kachio,nuts, 3.99
+49,chestnut,nuts, 2.29
+50,oats,grain, 9.99
+51,rye,grain, 8.99
+52,spelt,grain, 7.49
+53,flour,grain, 2.99
+54,olive oil,oil, 19.99
+55,sunflower oil,oil, 5.99
+56,olive oil spray,oil, 15.99

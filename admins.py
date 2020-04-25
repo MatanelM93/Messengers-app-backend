@@ -1,0 +1,1 @@
+ADMINS = {'admin@gmail.com'}
