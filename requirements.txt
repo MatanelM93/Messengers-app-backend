@@ -1,2 +1,11 @@
+Flask
+Flask-JWT-Extended
+Flask-RESTful
+Flask-SQLAlchemy
+flask-marshmallow
+python-dotenv
+marshmallow-sqlalchemy
+marshmallow=="3.0.0b19"
+stripe==2.46.0
 uwsgi
 werkzeug
