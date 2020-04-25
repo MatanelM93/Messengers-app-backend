@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, send_from_directory, render_template, url_for
 from flask_jwt_extended import JWTManager
-from flask_cors import CORS, cross_origin
+from flask_cors import CORS
 
 from blacklist import BLACKLIST
 from db import db
@@ -16,8 +16,6 @@ cors = CORS(app, origins="https://messengers-356a7.firebaseapp.com", allow_heade
 
 app.config['CORS_HEADERS'] = 'Content-Type'
 app.config['CORS_ENABLED'] = True
-
-#
 
 
 # additional configurations -
